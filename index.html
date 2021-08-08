@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Airthmentic Calculator</title>
+    <link rel="stylesheet" href="styles/jandu_300305341_lab7.css" />
+    <script src="scripts/jandu_300305341_lab7.js" defer></script>
+</head>
+<body>
+    <h2>Lab 7: JavaScript Arithmetic Operator</h2>
+    <form name="Calculator" action="" method="GET">
+        <fieldset>
+            <legend>My Calculator</legend>
+            <textarea id="textarea" cols="30" rows="10"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Input</legend>
+                <label>Operands: </label>
+                <input type="text" id="operand-1">
+                <input type="text" id="operand-2">
+                <br /><br />
+                <label>Operators: </label>
+                <input type="button" value="+" onclick="add()">
+                <input type="button" value="&times;" onclick="multiply()">
+                <input type="button" value=":" onclick="division()">
+                <input type="reset" value="Clear">
+        </fieldset>
+    </form>
+</body>
+</html>

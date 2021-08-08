@@ -1,0 +1,21 @@
+fieldset {
+    background-color: lightsteelblue;
+    width: 220px;
+    margin-bottom: 20px;
+}
+
+legend {
+    background-color: slategray;
+    color: white;
+}
+
+input {
+    width: 50px;
+    margin: 0 5px;
+}
+
+
+input[type=button] {
+    width: 20px;
+    margin: 0 1px;
+}
